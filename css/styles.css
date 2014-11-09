@@ -1,16 +1,30 @@
 body {
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
   margin:0;
+}
+
+a {
+  font-weight: 200;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .site {
   width: 80%;
-  margin: 0 auto;
+  margin: 10pt auto;
 }
 
 article {
-  margin: 30pt;
+  margin: 10pt;
 }
 
 header.title {
   
+}
+
+footer {
+  font-weight: 100;
 }
