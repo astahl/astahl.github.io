@@ -5,39 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ site.name }} {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
 
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+          <header>
+            <h1 class="title"><a href="/">Moonbase Plumbing</a></h1>
+          </header>
 
           {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
+          <footer>
+            <address>
                 Andreas Stahl<br />
-                Software Developer at HicknHack Software GmbH<br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
+                C++ - Wrangler (obv.) at <a href="http://www.hicknhack.com">HicknHack Software GmbH</a><br />
+                <a href="http://onebitwonder.bandcamp.com">onebitwonder.bandcamp.com</a><br />
                 <a href="https://github.com/astahl">github.com/astahl</a><br />
                 <a href="https://twitter.com/stahlwerk">twitter.com/stahlwerk</a><br />
-              </p>
-            </div>
-          </div>
+            </address>
+          </footer>
         </div>
-
     </body>
 </html>
