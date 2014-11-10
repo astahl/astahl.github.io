@@ -11,4 +11,3 @@ This blog will need a few principles.
 4. No bears.
 5. No comments.
 6. And leave the important stuff to the professionals, for god's sake.
-

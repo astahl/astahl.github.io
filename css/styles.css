@@ -1,11 +1,11 @@
 body {
-  font-family: "Helvetica Neue";
-  font-weight: lighter;
+  font-family: "Gill Sans", "Helvetica Neue";
+  font-weight: 200;
   margin:0;
 }
 
 a {
-  font-weight: 200;
+  font-weight: 400;
   text-decoration:none;
 }
 a:hover {
@@ -13,7 +13,7 @@ a:hover {
 }
 
 .site {
-  width: 80%;
+  max-width: 80%;
   margin: 10pt auto;
 }
 
@@ -21,10 +21,19 @@ article {
   margin: 10pt;
 }
 
-header.title {
-  
+article date {
+  font-weight: 100;
 }
 
-footer {
+article .title {
+  font-weight: 400;
+}
+
+.site > header {
+  border-bottom: solid 1pt;
+}
+
+.site > footer {
+  border-top: solid 1pt;
   font-weight: 100;
 }
