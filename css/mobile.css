@@ -1,0 +1,38 @@
+body {
+  font-family: "Gill Sans", "Helvetica Neue";
+  font-weight: 200;
+  margin:0;
+}
+
+a {
+  font-weight: 400;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.site {
+  margin: 1em;
+}
+
+article {
+  margin: 1em;
+}
+
+article date {
+  font-weight: 100;
+}
+
+article .title {
+  font-weight: 400;
+}
+
+.site > header {
+  border-bottom: solid 1pt;
+}
+
+.site > footer {
+  border-top: solid 1pt;
+  font-weight: 100;
+}
