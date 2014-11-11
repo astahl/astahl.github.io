@@ -13,12 +13,12 @@ a:hover {
 }
 
 .site {
-  max-width: 80%;
-  margin: 10pt auto;
+  margin: 3em;
 }
 
 article {
-  margin: 10pt;
+  margin: 3em;
+  max-width: 30em;
 }
 
 article date {
