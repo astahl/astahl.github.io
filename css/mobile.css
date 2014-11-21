@@ -28,6 +28,10 @@ article .title {
   font-weight: 400;
 }
 
+article > footer {
+text-align: center;  
+}
+
 .site > header {
   border-bottom: solid 1pt;
 }
