@@ -1,5 +1,5 @@
 ---
-title: On the iCloud Photo library 
+title: Regarding the iCloud Photo library 
 layout: post
 ---
 

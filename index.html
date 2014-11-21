@@ -12,10 +12,10 @@ layout: default
 	  	{{ post.title }}
 	  {% endif %}
   </h1>
-  <date>posted on {{ post.date | date_to_string }}</date>
+  <date>Posted on <a href="{{ post.url }}" title="Permanent Link to '{{ post.title }}'">{{ post.date | date_to_string }} &crarr;</a></date>
   {{ post.content }}
   <footer>
-  <a href="{{ post.url }}">Permalink</a>
+  &there4;
   </footer>
   </article>
   {% endfor %}
